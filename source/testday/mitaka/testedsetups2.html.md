@@ -39,7 +39,7 @@ Please make sure to use the steps described in the [How To Test](/testday/mitaka
 |----------------------------------------------------------------|------------------|-----------|----------------------------------------------|-----------------------------------------------------|--------|------------|--------------------------------------------------------------------|------------|
 | All-in-One - Sanity |  | CentOS 7 | <span style="background:#00ff00">Good</span>  | [How To Test](/testday/mitaka/milestone2#how-to-test) | imcsk8 |    |    | 
 |                     |  | F22      |   | [How To Test](/testday/mitaka/milestone2#how-to-test) |  |    |    | 
-|                     |  | RHEL7.2  |   | [How To Test](/testday/mitaka/milestone2#how-to-test) | edannon |  2016-01-31  |  <span style="background:#00ff00">Good</span>  | 
+|                     |  | RHEL7.1  |   | [How To Test](/testday/mitaka/milestone2#how-to-test) | edannon |    |    | 
 | Distributed -IPv6-Deployment- Sanity |  |  CentOS 7 |  | [QuickStart](/Quickstart) |  |   |  | 
 |                                      |  | F22       |  | [QuickStart](/Quickstart) |  |   |  | 
 |                                      |  | RHEL7.1   |  | [QuickStart](/Quickstart) | ekuris |   |  |
@@ -69,6 +69,8 @@ Please make sure to use the steps described in the [How To Test](/testday/mitaka
 | | Liberty | CentOS 7 | | [Install Guide](https://www.rdoproject.org/rdo-manager/) | | | | 
 | HA | Mitaka | CentOS 7 | | [Install Guide](https://www.rdoproject.org/rdo-manager/) | | | | 
 | | Liberty | CentOS 7 | | [Install Guide](https://www.rdoproject.org/rdo-manager/) | | | | 
+| HA | Mitaka | CentOS 7.1.1503 | Pass | [Install Guide](https://www.rdoproject.org/rdo-manager/) | Ido (iovadia) | | | | 
+| HA+Ceph | Mitaka | CentOS 7.1.1503 | Failed| [Install Guide](https://www.rdoproject.org/rdo-manager/) | Ido (iovadia) | | BZ #1303567 | | 
 
 ## Packstack Based Installation (Storage Components)
 
